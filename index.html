@@ -1,10 +1,64 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>VS</title>
-    </head>
-    <body>
-        <h1>under construction</h1>
-    </body>
+
+<html ng-app="app" xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+	<head>
+		<!-- <base href="/~sequentia4/melonomics/"> -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>melonomics</title>
+
+
+		<!-- css-->
+		<link rel="stylesheet" type="text/css" href="vendors/bootstrap/css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<!-- jQuery-->
+		<script src="vendors/jquery/js/jQuery.js" type="text/javascript" xml:space="preserve"></script>
+
+		<!-- jQuery Cookies management-->
+		<script src="vendors/jquery/jquery-cookie/jquery.cookie.js" type="text/javascript" xml:space="preserve"></script>
+
+		<!-- Angular-->
+		<script src="vendors/angular/js/angular.min.js" type="text/javascript" xml:space="preserve"></script>
+		<script src="vendors/angular/js/angular-file-upload.js" type="text/javascript" xml:space="preserve"></script>
+		<script src="vendors/angular/js/angular-i18n/angular-locale_es-es.js" type="text/javascript" xml:space="preserve"></script>
+		<script src="vendors/angular/js/ng-currency.js" type="text/javascript" xml:space="preserve"></script>
+		<script src="vendors/angular/js/angular-cookies.js" type="text/javascript" xml:space="preserve"></script>
+		<script src="vendors/angular/js/dirPagination.js" type="text/javascript" xml:space="preserve"></script>
+		<script src="vendors/bootstrap/js/ui-bootstrap-tpls-2.3.1.js" type="text/javascript" xml:space="preserve"></script>
+		<script src="vendors/angular/js/angular-route.min.js" type="text/javascript" xml:space="preserve"></script>
+
+
+
+
+		<!-- Own code-->
+		<!-- Model-->
+		<script src="js/model/Search.js" type="text/javascript" xml:space="preserve"></script>
+		<script src="js/model/Blast.js" type="text/javascript" xml:space="preserve"></script>
+
+		<!-- Controllers-->
+		<script src="js/app.js" type="text/javascript" xml:space="preserve"></script>
+		<script src="js/controller/mainController.js" type="text/javascript" xml:space="preserve"></script>
+		<script src="js/controller/searchController.js" type="text/javascript" xml:space="preserve"></script>
+		<script src="js/controller/blastController.js" type="text/javascript" xml:space="preserve"></script>
+
+	</head>
+	<body ng-controller="mainController as mainCtrl" >
+		<div class="navbar">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#/" >vsundesha</a>
+				<ul class="nav navbar-nav">
+					<li  class="navLink" >
+						<a href="#/projects">Projects</a>
+					</li>
+					<li  class="navLink" >
+						<a href="#/bio">Bio</a>
+					</li>
+					<li  class="navLink" >
+						<a href="#/cv">CV</a>
+					</li>
+				</ul>
+			</div>
+			<div ng-view></div>
+		</div>
+	</body>
 </html>
