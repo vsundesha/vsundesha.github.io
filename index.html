@@ -32,33 +32,27 @@
 
 		<!-- Own code-->
 		<!-- Model-->
-		<script src="js/model/Search.js" type="text/javascript" xml:space="preserve"></script>
-		<script src="js/model/Blast.js" type="text/javascript" xml:space="preserve"></script>
+
 
 		<!-- Controllers-->
 		<script src="js/app.js" type="text/javascript" xml:space="preserve"></script>
 		<script src="js/controller/mainController.js" type="text/javascript" xml:space="preserve"></script>
-		<script src="js/controller/searchController.js" type="text/javascript" xml:space="preserve"></script>
-		<script src="js/controller/blastController.js" type="text/javascript" xml:space="preserve"></script>
+
 
 	</head>
 	<body ng-controller="mainController as mainCtrl" >
-		<div class="navbar">
-			<div class="container-fluid">
-				<a class="navbar-brand" href="#/" >vsundesha</a>
-				<ul class="nav navbar-nav">
-					<li  class="navLink" >
-						<a href="#/projects">Projects</a>
-					</li>
-					<li  class="navLink" >
-						<a href="#/bio">Bio</a>
-					</li>
-					<li  class="navLink" >
-						<a href="#/cv">CV</a>
-					</li>
-				</ul>
-			</div>
-			<div ng-view></div>
+		<div class="" id="background"></div>
+
+		<div class="container">
+
+			<main-page ng-show="userAction==1"></main-page>
+			<bio-page ng-show="userAction==0"></bio-page>
+			<projects-page ng-show="userAction==2"></projects-page>
+
 		</div>
+
+		<footer>
+			footer content
+		</footer>
 	</body>
 </html>

@@ -6,21 +6,23 @@ $(document).ready(function () {
 (function(){
 	var app = angular.module('app', ['ui.bootstrap', 'angularUtils.directives.dirPagination']);
 
+
+
 	/**
-	@name home page
-	@description homepage.
+	@name bio
+	@description bio
 	@version 1.0
 	@date 07/06/2017
 	@author Vicky Sundesha
 	*/
-	app.directive("homePage", function (){
+	app.directive("mainPage", function (){
 		return {
 			restrict: 'E',
-			templateUrl:"view/template/home-page.html",
+			templateUrl:"view/template/main-page.html",
 			controller:function(){
 
 			},
-			controllerAs: 'homePage'
+			controllerAs: 'mainPage'
 		};
 	});
 
@@ -57,24 +59,6 @@ $(document).ready(function () {
 
 			},
 			controllerAs: 'bioPage'
-		};
-	});
-
-	/**
-	@name cv
-	@description cv
-	@version 1.0
-	@date 07/06/2017
-	@author Vicky Sundesha
-	*/
-	app.directive("cvPage", function (){
-		return {
-			restrict: 'E',
-			templateUrl:"view/template/cv-page.html",
-			controller:function(){
-
-			},
-			controllerAs: 'cvPage'
 		};
 	});
 
