@@ -127,3 +127,11 @@ a.animated-button.contact:hover:after {
 	height: 140%;
 	opacity: 1;
 }
+
+footer{
+    height: 100px;
+    width: 100%
+}
+div{
+    margin: auto;
+}
