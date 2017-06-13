@@ -1,4 +1,16 @@
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
 
+body {
+	font-family: 'Lato', sans-serif;
+	/*background: #353535;*/
+	color: #353535;
+}
+
+
+.desc{
+	text-align: justify;
+}
 #background{
     background: url(../img/bg.jpg) no-repeat top  fixed;
     -webkit-background-size: cover;
@@ -11,22 +23,7 @@
     padding: 0;
     opacity: 0.7
 }
-.cta{
 
-}
-.desc{
-    text-align: justify;
-}
-
-
-@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
-@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
-
-body {
-	font-family: 'Lato', sans-serif;
-	/*background: #353535;*/
-	color: #353535;
-}
 /* Global Button Styles */
 a.animated-button:link, a.animated-button:visited {
 	position: relative;
@@ -126,12 +123,4 @@ a.animated-button.contact:after {
 a.animated-button.contact:hover:after {
 	height: 140%;
 	opacity: 1;
-}
-
-footer{
-    height: 100px;
-    width: 100%
-}
-div{
-    margin: auto;
 }
