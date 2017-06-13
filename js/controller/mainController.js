@@ -8,11 +8,10 @@
 
 //Angular code
 (function (){
-	angular.module('app', ['ngRoute'])
-
-	.controller("mainController", ['$scope', '$window','$filter', '$http',function ($scope, $window, $filter, $http){
-    $scope.userAction=1;
-    console.log($scope.userAction);
+	angular.module('app')
+	.controller("mainController", ['$scope', '$window','$filter',function ($scope, $window, $filter){
+    $scope.userAction=0;
+	console.log($scope.userAction);
 	}])
 
 
