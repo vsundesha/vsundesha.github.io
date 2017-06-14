@@ -63,7 +63,7 @@ a.animated-button:link:hover, a.animated-button:visited:hover {
 	text-shadow: none;
 }
 a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
-	height: 450%;
+	height: 550%;
 }
 a.animated-button:link, a.animated-button:visited {
 	position: relative;
@@ -124,3 +124,14 @@ a.animated-button.contact:hover:after {
 	height: 140%;
 	opacity: 1;
 }
+
+
+
+footer div {
+  margin: 0 auto;
+  display: inline-block;
+  }
+
+footer {
+  display:flex;
+  }
