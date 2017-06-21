@@ -4,7 +4,7 @@ $(document).ready(function () {
 });
 
 (function(){
-	var app = angular.module('app', ['ui.bootstrap', 'angularUtils.directives.dirPagination']);
+	var app = angular.module('app', ['ui.bootstrap', 'angularUtils.directives.dirPagination', 'ngAnimate']);
 
 
 

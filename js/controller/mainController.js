@@ -11,7 +11,7 @@
 	angular.module('app')
 	.controller("mainController", ['$scope', '$window','$filter',function ($scope, $window, $filter){
     $scope.userAction=0;
-	console.log($scope.userAction);
+		console.log($scope.userAction);
 	}])
 
 

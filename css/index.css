@@ -1,29 +1,31 @@
 @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
 
+
 body {
 	font-family: 'Lato', sans-serif;
-	/*background: #353535;*/
 	color: #353535;
 }
-
-
-.desc{
+.jsutify{
 	text-align: justify;
 }
-#background{
-    background: url(../img/bg.jpg) no-repeat top  fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 600px;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    opacity: 0.7
+.center{
+	text-align: center;
 }
-
+.redtext{
+	color: #D24D57;
+}
+.heading1{
+	font-size: 48px;
+}
+.logosize{
+	width: 50px;
+	height: 50px;
+	z-index: -1;
+}
+.logosize:hover{
+	fill: #D24D57;
+}
 /* Global Button Styles */
 a.animated-button:link, a.animated-button:visited {
 	position: relative;
@@ -128,10 +130,10 @@ a.animated-button.contact:hover:after {
 
 
 footer div {
-  margin: 0 auto;
-  display: inline-block;
-  }
+	margin: 0 auto;
+	display: inline-block;
+}
 
 footer {
-  display:flex;
-  }
+	display:flex;
+}
