@@ -26,6 +26,11 @@ body {
 .logosize:hover{
 	fill: #D24D57;
 }
+p{
+	font-size: 16px;
+	text-align: justify;
+}
+
 /* Global Button Styles */
 a.animated-button:link, a.animated-button:visited {
 	position: relative;
