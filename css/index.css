@@ -1,6 +1,21 @@
 @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+a:visited { text-decoration: none; }
+.textOver{
+	background-image: url(http://d2fbmjy3x0sdua.cloudfront.net/cdn/farfuture/xX2dO2IN71t0tfGOITDQ0HSLNOml6xiRu_z3MU6Xx5M/mtime:1486669862/sites/default/files/styles/engagement_card/public/sfw_apa_2013_28342_232388_briankushner_blue_jay_kk_high.jpg?itok=ttMfUhUu);
+	background-repeat: no-repeat;
+	width: 32%;
+	height: 300px;
+	float: left;
+	margin: 4px;
+	background-size: 100%;
+	background-position: center;
+	transition: 0.5s
 
+}
+.textOver:hover{
+	background-size: 110%;
+}
 
 body {
 	font-family: 'Lato', sans-serif;
@@ -32,7 +47,7 @@ p{
 }
 
 /* Global Button Styles */
-a.animated-button:link, a.animated-button:visited {
+/*a.animated-button:link, a.animated-button:visited {
 	position: relative;
 	display: block;
 	margin: 30px auto 0;
@@ -51,7 +66,7 @@ a.animated-button:link, a.animated-button:visited {
 	-moz-transition: all 1s ease;
 	-o-transition: all 1s ease;
 	transition: all 1s ease;
-}
+}*/
 a.animated-button:link:after, a.animated-button:visited:after {
 	content: "";
 	position: absolute;
@@ -72,11 +87,12 @@ a.animated-button:link:hover, a.animated-button:visited:hover {
 a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
 	height: 550%;
 }
+
 a.animated-button:link, a.animated-button:visited {
 	position: relative;
 	display: block;
 	margin: 30px auto 0;
-	padding: 14px 15px;
+	padding: 20px 15px;
 	color: #353535;
 	font-size:14px;
 	border-radius: 0;
@@ -95,8 +111,10 @@ a.animated-button:link, a.animated-button:visited {
 
 /* Victoria Buttons */
 
-a.animated-button.bio {
+a.animated-button.bio, a.animated-button.projects, a.animated-button.contact {
 	border: 2px solid #D24D57;
+	/*border: 2px solid white;*/
+	/*border-radius: 100px;*/
 }
 a.animated-button.bio:after {
 	background: #D24D57;
@@ -105,9 +123,7 @@ a.animated-button.bio:after {
 	-webkit-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
 	transform: translateX(-50%) translateY(-50%) rotate(-25deg);
 }
-a.animated-button.projects {
-	border: 2px solid #D24D57;
-}
+
 a.animated-button.projects:after {
 	background: #D24D57;
 	-moz-transform: translateX(-50%) translateY(-50%) rotate(25deg);
@@ -116,21 +132,18 @@ a.animated-button.projects:after {
 	transform: translateX(-50%) translateY(-50%) rotate(25deg);
 }
 
-a.animated-button.contact {
-	border: 2px solid #D24D57;
-}
 a.animated-button.contact:after {
 	background: #D24D57;
-	opacity: .5;
+	/*opacity: .5;*/
 	-moz-transform: translateX(-50%) translateY(-50%);
 	-ms-transform: translateX(-50%) translateY(-50%);
 	-webkit-transform: translateX(-50%) translateY(-50%);
 	transform: translateX(-50%) translateY(-50%);
 }
-a.animated-button.contact:hover:after {
+/*a.animated-button.contact:hover:after {
 	height: 140%;
 	opacity: 1;
-}
+}*/
 
 
 
@@ -141,4 +154,5 @@ footer div {
 
 footer {
 	display:flex;
+	padding: 10%;
 }

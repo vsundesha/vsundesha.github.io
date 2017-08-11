@@ -4,61 +4,61 @@ $(document).ready(function () {
 });
 
 (function(){
-	var app = angular.module('app', ['ui.bootstrap', 'angularUtils.directives.dirPagination', 'ngAnimate']);
+	var app = angular.module('app', ['ui.bootstrap']);
 
 
 
 	/**
-	@name bio
-	@description bio
+	@name center
+	@description bio and woek
 	@version 1.0
 	@date 07/06/2017
 	@author Vicky Sundesha
 	*/
-	app.directive("mainPage", function (){
+	app.directive("center", function (){
 		return {
 			restrict: 'E',
-			templateUrl:"view/template/main-page.html",
+			templateUrl:"view/template/center.html",
 			controller:function(){
 
 			},
-			controllerAs: 'mainPage'
+			controllerAs: 'center'
 		};
 	});
 
   /**
-	@name project
-	@description project
+	@name bottom
+	@description contact info
 	@version 1.0
 	@date 07/06/2017
 	@author Vicky Sundesha
 	*/
-	app.directive("projectsPage", function (){
+	app.directive("bottom", function (){
 		return {
 			restrict: 'E',
-			templateUrl:"view/template/projects-page.html",
+			templateUrl:"view/template/bottom.html",
 			controller:function(){
 
 			},
-			controllerAs: 'projectsPage'
+			controllerAs: 'bottom'
 		};
 	});
 
 	/**
-	@name bio
-	@description bio
+	@name top
+	@description top
 	@version 1.0
 	@date 07/06/2017
 	@author Vicky Sundesha
 	*/
-	app.directive("bioPage", function (){
+	app.directive("top", function (){
 		return {
 			restrict: 'E',
-			templateUrl:"view/template/bio-page.html",
+			templateUrl:"view/template/top.html",
 			controller:function(){
 
 			},
-			controllerAs: 'bioPage'
+			controllerAs: 'top'
 		};
 	});
 

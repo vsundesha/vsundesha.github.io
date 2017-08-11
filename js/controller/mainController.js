@@ -10,8 +10,11 @@
 (function (){
 	angular.module('app')
 	.controller("mainController", ['$scope', '$window','$filter',function ($scope, $window, $filter){
-    $scope.userAction=0;
-		console.log($scope.userAction);
+		$scope.page=1;
+
+		$scope.on_click_button = function(page){
+			$scope.page=page;
+		}
 	}])
 
 
