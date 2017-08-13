@@ -137,7 +137,15 @@ a.animated-button.contact:after {
 	-webkit-transform: translateX(-50%) translateY(-50%);
 	transform: translateX(-50%) translateY(-50%);
 }
-
+.gaia{
+    color: #572C7C;
+}
+.melonomics{
+    color: #FF7D11;
+}
+.prgdb{
+    color: #3c753d;
+}
 
 footer div {
 	margin: 0 auto;
@@ -151,5 +159,11 @@ footer {
 p{
 	font-size: 20px;
 }
-h1{
+.section{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+.space{
+    padding-left:2em;
 }
