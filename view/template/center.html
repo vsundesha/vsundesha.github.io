@@ -1,3 +1,4 @@
+<script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
 <div class="container">
     <div class="container" ng-if="page==0">
         <h4 class="redtext">BIO</h4>
@@ -6,42 +7,45 @@
                 me the ability to have an eye for design and a love for writing clean and simple
                 code, here you can check out some of my
                 <a class="redtext" ng-click="on_click_button(1)">work</a>.
-                <!-- If you want to know more about me feel free to
-                <a href="mailto:me.vickysundesha@gmail.com" class="redtext">contact me</a> -->
             </p>
 
 
     </div>
     <div class="container"  ng-if="page==1">
-        <h4 class="redtext">WORK</h4>
-
-        <div class="col-md-12" style="display:flex; align-items:center;">
-            <h3 class="col-md-6">GAIA is an online metagenomics platform</h3>
-            <img class="col-md-4" style="float:right" src="img/gaia.png" alt="">
+        <h4 class="redtext">PROJECTS</h4>
+        <div class="col-md-12" style="display:flex; align-items:center; justify-content:space-around;">
+            <h1 class="col-md-6">GAIA is an online metagenomics analysis platform</h1>
+            <img class="col-md-4" src="img/gaia.png" alt="">
         </div>
-        <div class="col-md-12" style="display:flex; align-items:center;">
+        <div class="col-md-12" style="display:flex; align-items:center; justify-content:space-around;">
+            <h1  class="col-md-6">The genome of melon (Cucumis melo L.)</h1>
             <img class="col-md-4" src="img/Melonomics.png" alt="">
-            <h3  style="float:right"class="col-md-6">The genome of melon (Cucumis melo L.)</h3>
+
         </div>
-        <div class="col-md-12" style="display:flex; align-items:center;">
-            <h3 class="col-md-6">Plant Resistant Gene database</h3>
-            <img class="col-md-4"  style="float:right" src="img/prgdb.png" alt="">
+        <div class="col-md-12" style="display:flex; align-items:center; justify-content:space-around;">
+            <h1 class="col-md-6">Plant Resistant Gene database</h1>
+            <img class="col-md-4" src="img/prgdb.png" alt="">
         </div>
-
-
-         <!-- <div class="">
-            <div class="">
-                <h3>An online metagenomics platform</h3>
-            </div>
-            <div class="">
-
-            </div> -->
-
     </div>
-    <div class="container" ng-if="page==2">
+    <div class="container"  ng-if="page==2">
         <h4 class="redtext">CONTACT</h4>
-        <p>If you think I am the man for the job or have any further questions,
-            please feel free to <a class="redtext" href="mailto:me.vickysundesha@gmail.com">
-            contact me</a> <br>Thank you for stoping by..</p>
+        <div class="" style="display:flex; align-items:center;">
+            <p>Leave me a message on skype :</p>
+            <div style="width:200px; height:100px;" id="SkypeButton_Call_vickysundesha_1">
+                <script type="text/javascript">
+                Skype.ui({
+                "name": "chat",
+                "element": "SkypeButton_Call_vickysundesha_1",
+                "participants": ["vickysundesha"],
+                "imageSize": 32
+                });
+                </script>
+            </div>
+        </div>
+            <div class="">
+                <p>Send me an e-mail at: <a style="padding-left:2em" class="redtext" href="mailto:me.vickysundesha@gmail.com">me.vickysundesha@gmail.com</a></p>
+            </div>
+
+
     </div>
 </div>
