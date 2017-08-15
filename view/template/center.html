@@ -43,20 +43,8 @@
     <div class="container"  ng-if="page==2">
         <h4 class="redtext">CONTACT</h4>
         <div class="" style="display:flex; align-items:center;">
-            <p>Leave me a message on skype :</p>
-            <div class="skype" id="SkypeButton_Call_vickysundesha_1">
-                <script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
-                <div id="SkypeButton_Call_vickysundesha_1">
-                    <script type="text/javascript">
-                    Skype.ui({
-                    "name": "chat",
-                    "element": "SkypeButton_Call_vickysundesha_1",
-                    "participants": ["vickysundesha"],
-                    "imageSize": 32
-                    });
-                    </script>
-                </div>
-            </div>
+            <p>Leave me a message on skype : </p>
+            <skype-ui class="skype" id="SkypeButton_Call_mike_1" participants="participants"></skype-ui>
         </div>
         <div class="">
             <p>Send me an e-mail at: <a class="redtext space" href="mailto:me.vickysundesha@gmail.com">me.vickysundesha@gmail.com</a></p>

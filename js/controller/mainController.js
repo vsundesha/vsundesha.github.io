@@ -9,9 +9,11 @@
 //Angular code
 (function (){
 	angular.module('app')
+	
+
 	.controller("mainController", ['$scope', '$window','$filter',function ($scope, $window, $filter){
 		$scope.page=1;
-
+		$scope.participants = ["vsundesha"];
 		$scope.on_click_button = function(page){
 			$scope.page=page;
 		}
