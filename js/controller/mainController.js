@@ -19,7 +19,7 @@
 		}
 
 
-		$scope.participants = ["vsundesha"];
+		$scope.participants = ["vickysundesha"];
 	}])
 
 
