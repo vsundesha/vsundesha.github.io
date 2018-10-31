@@ -6,16 +6,16 @@ url                          : "" # the base hostname & protocol for your site
 
 
 blog:
-  title                      : "&#60S"
+  title                      : "&#60icky"
   description                :   Welcome!
 
 # Layout configuration
-  logo_path                  : "assets/img/dactl.svg" # path to logo file
+  logo_path                  : "assets/img/drawing.svg" # path to logo file
   search_path                : # "yourgitusername.github.io"
                                # needed for searchbox in archive page
   display_blog_title         : true                               
   hero_layout                : true # turn on hero layout for blog and posts
-  hero_placeholder           : "assets/img/generic_hero.jpg" # placeholder for hero image
+  # hero_placeholder           : "assets/img/generic_hero.jpg" # placeholder for hero image
   excerpts                   : true # show excerpts instead of full post content on blog page
   inline_footnotes           : true # enable/disable barefoot inline footnotes
   titles_only                : true # show post titles only on main blog page
