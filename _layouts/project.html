@@ -4,9 +4,9 @@ title: "Blog"
 ---
 
 {% for post in site.posts %}
-{% if post.type == 'project' %}
-{% include blog.html %}
-{% endif %}
+    {% if post.type == 'project' %}
+        {% include blog.html %}
+    {% endif %}
 {% endfor %}
 
 <!-- {% include post/pagination.html %} -->

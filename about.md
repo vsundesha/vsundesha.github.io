@@ -20,6 +20,7 @@ published: true
 
 ## A bit about me .. 
 
-Hello, my name is Vicky I am a Full-Stack developer from Barcelona, Spain and hold a degree in web development along with a diploma in Bioinformatics which gives me the ability to have an eye for design and a love for writing clean and simple code, here you can check out some of my work. I am currently working at the Barcelona supercomputing center in the life science department. I enjoy good music and football ! 
+Hello, my name is Vicky I am a software developer from Barcelona, Spain. 
+Welcome to my blog! I am currently working with the life science department at the Barcelona supercomputing center! 
 
 </div>
