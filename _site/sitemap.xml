@@ -3,7 +3,7 @@
   
     
     <url>
-      <loc>http://localhost:4242/posts/install-drupal-8-ubuntu-18/</loc>
+      <loc>http://localhost:3200/posts/install-drupal-8-ubuntu-18/</loc>
       
         <lastmod>2018-10-31T00:00:00+01:00</lastmod>
       
@@ -18,7 +18,7 @@
   
     
     <url>
-      <loc>http://localhost:4242/posts/notices/</loc>
+      <loc>http://localhost:3200/posts/notices/</loc>
       
         <lastmod>2017-03-20T00:00:00+01:00</lastmod>
       
@@ -33,37 +33,7 @@
   
     
     <url>
-      <loc>http://localhost:4242/posts/config-settings/</loc>
-      
-        <lastmod>2017-03-20T00:00:00+01:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.7</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://localhost:4242/posts/yaml-frontmatter/</loc>
-      
-        <lastmod>2017-03-19T00:00:00+01:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.7</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://localhost:4242/posts/tags-in-dactyl/</loc>
+      <loc>http://localhost:3200/posts/tags-in-dactyl/</loc>
       
         <lastmod>2017-03-18T00:00:00+01:00</lastmod>
       
@@ -78,22 +48,7 @@
   
     
     <url>
-      <loc>http://localhost:4242/posts/post-excerpts-lead-paragraphs/</loc>
-      
-        <lastmod>2017-03-17T00:00:00+01:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.7</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://localhost:4242/posts/footnotes-in-dactl/</loc>
+      <loc>http://localhost:3200/posts/footnotes-in-dactl/</loc>
       
         <lastmod>2017-03-16T00:00:00+01:00</lastmod>
       
@@ -108,7 +63,7 @@
   
     
     <url>
-      <loc>http://localhost:4242/posts/example-content/</loc>
+      <loc>http://localhost:3200/posts/example-content/</loc>
       
         <lastmod>2017-01-20T00:00:00+01:00</lastmod>
       
@@ -126,9 +81,9 @@
   
     
     <url>
-      <loc>http://localhost:4242/about/</loc>
+      <loc>http://localhost:3200/about/</loc>
       
-        <lastmod>2019-01-08T12:36:59+01:00</lastmod>
+        <lastmod>2020-01-16T16:44:50+01:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -141,9 +96,9 @@
   
     
     <url>
-      <loc>http://localhost:4242/archive/</loc>
+      <loc>http://localhost:3200/archive/</loc>
       
-        <lastmod>2019-01-08T12:36:59+01:00</lastmod>
+        <lastmod>2020-01-16T16:44:50+01:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -160,9 +115,9 @@
   
     
     <url>
-      <loc>http://localhost:4242/projects/</loc>
+      <loc>http://localhost:3200/projects/</loc>
       
-        <lastmod>2019-01-08T12:36:59+01:00</lastmod>
+        <lastmod>2020-01-16T16:44:50+01:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -175,9 +130,9 @@
   
     
     <url>
-      <loc>http://localhost:4242/</loc>
+      <loc>http://localhost:3200/</loc>
       
-        <lastmod>2019-01-08T12:36:59+01:00</lastmod>
+        <lastmod>2020-01-16T16:44:50+01:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -192,6 +147,36 @@
   
     
   
+    
+  
+    
+    <url>
+      <loc>http://localhost:3200/page-2/</loc>
+      
+        <lastmod>2020-01-16T16:44:50+01:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:3200/page-3/</loc>
+      
+        <lastmod>2020-01-16T16:44:50+01:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
     
   
 </urlset>
